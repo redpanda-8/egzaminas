@@ -1,0 +1,38 @@
+{
+  "name": "egzaminas",
+  "version": "1.0.0",
+  "description": "egzaminas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redpanda-8/egzaminas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redpanda-8/egzaminas/issues"
+  },
+  "homepage": "https://github.com/redpanda-8/egzaminas#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "babel-preset-react": "^6.24.1",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
